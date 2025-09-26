@@ -35,10 +35,10 @@ struct LandmarkList: View {
             }
             .animation(.default, value: filteredLandmarks)
             .navigationTitle("Landmarks")
+            .navigationBarTitleDisplayMode(.inline)
         } detail: {
             Text("Select a Landmark")
         }
-
     }
 }
 
